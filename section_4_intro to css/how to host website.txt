@@ -1,0 +1,7 @@
+on github create new repo and add your website files
+
+go to Settings -> Pages and enable it
+
+the website will be published on github
+
+(github searches for a index.html file to laod the website)

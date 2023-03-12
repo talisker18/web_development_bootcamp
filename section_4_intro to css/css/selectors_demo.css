@@ -1,0 +1,51 @@
+/*
+
+type / tag selector
+
+*/
+
+img {
+    background-color: red;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+/*
+
+class selector
+
+*/
+
+.bacon {
+    background-color: green;
+}
+
+.broccoli {
+    background-color: red;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+/*
+
+Id selector
+
+*/
+
+#heading {
+    color: blue;
+}
+
+/*
+
+selectors with pseudo classes
+
+*/
+
+img:hover {
+    background-color: yellow;
+}

@@ -1,0 +1,36 @@
+body{ /*tag selector*/
+    background-color: powderblue;
+}
+
+hr {
+    background-color: white; /*this will not change the color because our browser has some default CSS. 
+    The hr element is affected by this default CSS, by the property 'border-style: inset'*/
+    border-style: none; /*but then the hr will 'disappear'. We have also to define a height*/
+    height: 2px;
+    width: 10%; /*relative to the web site width*/
+}
+
+/*following will change the hr to dotted style. We dont need the height any more
+and with 'dotted none none' we say: the first style applies to the top, the second to the left and right, the third to the bottom.
+alternative:
+
+border-style: none;
+border-top-style: dotted;
+
+the background we dont need anymore because the height is 0. to set the color useborder-color
+
+*/
+/*hr {
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 10px;
+    width: 30%;
+}*/
+
+h1 {
+    color: blue;
+}
+
+h3 {
+    color: blue;
+}
