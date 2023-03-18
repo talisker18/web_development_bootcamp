@@ -1,0 +1,18 @@
+body {
+    margin: 0; /*all 4 sides*/
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.top-container {
+    background-color: #DDF7E3;
+}
+
+.mid-container {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
