@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  text-align: center; /*center every child that does not have a width set*/
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /*if Helvetica Neue is not available on the using browser, use Helvetica. If Helvetica not available, then use Arial*/
+  /*alternative: use google fonts and embed a font. So every browser on every OS will show the same font*/
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto; /*when using 10% width, we have to set margin of right and left to auto center the h1*/
+  width: 10%;
+  font-size: 90px; /*16px = 100% = 1em*/
+  color: #66BFBF;
+
+  /*!!!!!!!!!!!!!!!!!!!!!other important note about fonts size: 
+
+  the h1 has font size of 5em
+  
+  if we define also a font size in body element, for example 2em, the h1 will have 7em because these 2em are added to the 5em of h1
+
+  this works also with %, but not with px
+
+
+  in CSS3, there is also rem instead of em. with rem, parent font size is not added!
+  
+  */
+}
+
+h2 {
+  margin: 0 auto 0 auto; /*when using 10% width, we have to set margin of right and left to auto center the h1*/
+  /*width: 10%;*/
+  font-family: 'Sacramento', cursive; /*google font!!*/
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a {
+  color: #0d0f9c;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+h3 {
+  color: #82119e;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin-top: 50px;
+}
+
+.bottom-container {
+  margin-top: 50px;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 25px auto 200px auto;
+  text-align: left;
+}
+
+p {
+  line-height: 2;
+}
+
+.chilli-img {
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+
+.code-img {
+  float: left;
+  margin-right: 30px;
+}
+
+/*
+we want that the title and the img are next to each other but the p text is under the img
+*/
+
+/*.code-skill-para {
+  clear: left; 
+}
+
+.chilli-skill-para {
+  clear: right;
+}*/
+
+.intro {
+  width: 30%;
+  margin: 0 auto 0 auto;
+}
+
+hr {
+  margin: 30px auto 30px auto;
+  border: dotted #656868 6px;
+  border-bottom: none;
+  width: 30%;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 0 auto 30px auto;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
