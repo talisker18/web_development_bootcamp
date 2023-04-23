@@ -1,0 +1,2 @@
+//change CSS properties
+document.querySelector("h1").style.fontSize = "10rem"; //attention: in JS, the property is written camleCase, not font-size like in CSS; and the values have to be written as String
