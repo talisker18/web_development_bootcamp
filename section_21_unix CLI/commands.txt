@@ -1,0 +1,21 @@
+ctrl+a
+	go to the beginning
+ctrl+e
+	go to the end
+ctrl+u
+	delete all
+mkdir <folder>
+	create folder
+touch <file_name>.<extension>
+	create file
+start <file_name>.<extension>
+	open a file
+rm <file_name>.<extension>
+	delete a file
+vim <file_name>.<extension>
+	with vim editor: open and edit txt file
+	to save and quit: Esc, then :wq
+pwd
+	show current location
+rm -r <dir_name>
+	delete a directory

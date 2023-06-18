@@ -1,0 +1,20 @@
+run a JS
+	node index.js
+REPL
+	read evaluation print loops
+		enter the REPL with command 'node'
+			now we can write JS code directly
+				exit the REPL: '.exit'
+npm commands (node package manager)
+	npm init
+		initialize; creates a package.json file
+	npm install superheroes
+		install package 'superheroes'
+			this adds a entry in dependencies section of the package.json
+			then in JS, use this package with 
+				const superheroes = require('superheroes');
+
+express commands
+	nodemon index.js
+		start app with express
+	
