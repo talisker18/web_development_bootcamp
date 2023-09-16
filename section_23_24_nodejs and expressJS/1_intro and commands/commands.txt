@@ -13,6 +13,8 @@ npm commands (node package manager)
 			this adds a entry in dependencies section of the package.json
 			then in JS, use this package with 
 				const superheroes = require('superheroes');
+	npm install
+		just use this if the dependencies are already defined in your package json file
 
 express commands
 	nodemon index.js
