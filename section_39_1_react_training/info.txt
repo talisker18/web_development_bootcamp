@@ -1,0 +1,5 @@
+1 to 4
+	training to transfer data from component to component
+	in 3 and 4: using map function of a collection
+5
+	other collection methods like filter, reduce, find, findIndex

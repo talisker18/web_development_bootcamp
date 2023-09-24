@@ -1,0 +1,5 @@
+npx create-react-app my-app
+	create new app with name 'my-app'
+
+npm start
+	start the app on localhost
